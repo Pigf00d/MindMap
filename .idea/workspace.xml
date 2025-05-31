@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e3ee994-53da-4e3e-a50a-0fa21d8119e2" name="Changes" comment="trying" />
+    <list default="true" id="2e3ee994-53da-4e3e-a50a-0fa21d8119e2" name="Changes" comment="trying">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +24,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Pigf00d/whoami.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/Pigf00d/MindMap.git&quot;,
     &quot;accountId&quot;: &quot;0f8207cd-bbaf-4921-bc1c-6bfafe6584e2&quot;
   }
 }</component>
@@ -94,6 +96,7 @@
       <workItem from="1747956592165" duration="777000" />
       <workItem from="1748021340366" duration="526000" />
       <workItem from="1748540823610" duration="1058000" />
+      <workItem from="1748549284885" duration="105000" />
     </task>
     <task id="LOCAL-00001" summary="initial backend commit">
       <option name="closed" value="true" />
