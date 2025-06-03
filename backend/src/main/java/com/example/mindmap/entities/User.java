@@ -24,6 +24,10 @@ public class User {
     @Column(name = "email")
     private String email;
 
+    @NonNull
+    @Column(name = "password")
+    private String password;
+
     @Column(name = "favorite_thing")
     private String favoriteThing;
 
