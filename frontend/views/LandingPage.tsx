@@ -1,9 +1,23 @@
 import "../styles/LandingPage.css";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
+
+function handleLogin(email: string, password: string) {
+  axios
+    .post("http://localhost:8080/login", { email, password })
+    .then((response) => {
+      console.log(response.data);
+    })
+    .catch((error) => {
+      console.error("Error fetching user:", error);
+    });
+}
 
 export default function LandingPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   return (
     <div className="landing-page">
@@ -22,14 +36,15 @@ export default function LandingPage() {
           placeholder="password"
           className="input"
         ></input>
-        <button
-          onClick={() => {
-            setEmail("");
-            setPassword("");
-          }}
-        >
-          LOGIN
-        </button>
+        <div className="buttons-container">
+          <button onClick={() => handleLogin(email, password)}>LOGIN</button>
+          <button
+            className="register-link"
+            onClick={() => navigate("/register")}
+          >
+            REGISTER
+          </button>
+        </div>
       </form>
     </div>
   );
