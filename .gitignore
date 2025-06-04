@@ -6,20 +6,23 @@ target/
 
 application.properties
 
-# User-specific stuff:
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/dictionaries
-.idea/vcs.xml
-.idea/jsLibraryMappings.xml
+/.idea/
 
-# Sensitive or high-churn files:
-.idea/dataSources.ids
-.idea/dataSources.xml
-.idea/dataSources.local.xml
-.idea/sqlDataSources.xml
-.idea/dynamic.xml
-.idea/uiDesigner.xml
+# JetBrains project files you don't want
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/**/tasks.xml
+.idea/**/dataSources/
+.idea/**/dataSources.local.xml
+.idea/**/sqldialects.xml
+.idea/**/dictionaries
+.idea/**/uiDesigner.xml
+.idea/**/sonarlint/
+
+# (Optional) ignore these if you don’t need them shared
+.idea/compiler.xml
+.idea/jarRepositories.xml
+
 
 ### STS ###
 .apt_generated
